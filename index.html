@@ -26,7 +26,7 @@
 			  width : 100%;
 			  height : 100%;
 			  margin : 0rem;
-			  padding : 0.5rem;
+			  padding : 0.6rem;
 			  border : none;
 			  overflow : auto;					
 		  }
@@ -37,24 +37,27 @@
         font-size: 1rem;
       }
       .container{
-        width: 50%;
+        width: 80%;
       }
       .button_instagram{
         font-size: 0.6rem;
         text-align: center;
+      }
+      .button_page{
+        font-size: 0.6rem;
       }
     </style>
 </head>
     
 <body>
   <br>
-  <p class="text-center custom1">
+  <div id="title" class="text-center custom1">
     Pattern
-  </p>
-  <p class="text-center custom2">
+  </div>
+  <div id="sub-title" class="text-center custom2">
     수원시 행궁동 장소특정형 프로젝트 (22.09.14 - 22.09.19)
-  </p>
-  <br>
+  </div>
+  <br><br><br>
 
   <div id="content" class="custom2">
     &lt;Pattern&gt;은 수원시 행궁동이 갖고 있는 장소로서의 패턴을 연구함으로써, 공간에 머무르고 출발하는 과정의 경험을 해석한 프로젝트 입니다. <br><br>
@@ -70,8 +73,47 @@
     본 프로젝트는 수원시와 수원문화재단의 후원으로 진행됩니다.
   </div>
 
-  <br>
-  <br>
+  <br><br>
+	<ul class="nav nav-tabs" id="SitePatternTab_Title" role="tablist">
+		<li class="nav-item" role="presentation">
+			<button class="nav-link active" id="Site-Pattern1-tab" data-bs-toggle="tab"
+				data-bs-target="#Site-Pattern1" type="button" role="tab" aria-controls="Site-Pattern1"
+				aria-selected="true">Site-Pattern1</button>
+		</li>
+		<li class="nav-item" role="presentation">
+			<button class="nav-link" id="Site-Pattern2-tab" data-bs-toggle="tab"
+				data-bs-target="#Site-Pattern2" type="button" role="tab"
+				aria-controls="Site-Pattern2" aria-selected="false">Site-Pattern2</button>
+		</li>
+	</ul>
+	
+	<div class="tab-content" id="SitePatternTab_content">
+		<div class="tab-pane fade show active" id="Site-Pattern1" role="tabpanel"
+			aria-labelledby="Site-Pattern1-tab">
+      <br>
+      (Site-Pattern1 text)
+      <br>
+      <div id="button_Site-Pattern1" class="button_page">
+        <a href="site_pattern1.html" class="btn text-dark" role="button">
+          <span class="bi bi-arrow-bar-right"> &nbsp;Site-Pattern1</span>
+        </a>
+      </div>
+    </div>
+
+		<div class="tab-pane fade" id="Site-Pattern2" role="tabpanel"
+			aria-labelledby="Site-Pattern2-tab">
+      <br>
+      (Site-Pattern2 text)
+      <br>
+      <div id="button_Site-Pattern2" class="button_page">
+        <a href="site_pattern2.html" class="btn text-dark" role="button">
+          <span class="bi bi-arrow-bar-right"> &nbsp;Site-Pattern2</span>
+        </a>
+      </div>
+    </div>
+	</div>
+
+  <br><br>
   <div class="container">
     <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -116,8 +158,7 @@
   <br>
   <div id="button_instagram" class="button_instagram">
     <a href="https://www.instagram.com/__haenggung.pattern/" class="btn bg-light text-dark" role="button">
-      <i class="bi bi-instagram"></i>
-      instagram
+      <span class="bi bi-instagram"> &nbsp;instagram</span>
     </a>
   </div>
 
