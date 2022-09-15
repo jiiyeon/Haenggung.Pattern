@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pattern</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  
+  <style>
+      *{
+          font-family: 'Noto Serif KR', serif;
+          font-size: 12px;
+      }
+      html, body{
+			  width : 100%;
+			  height : 100%;
+			  margin : 0rem;
+			  padding : 0.6rem;
+			  border : none;
+			  overflow : auto;					
+		  }
+      .custom1{
+        font-size: 1.8rem;
+      }
+      .custom2{
+        font-size: 1rem;
+      }
+      .custom3{
+        font-size: 0.6rem;
+      }
+      .container{
+        width: 80%;
+      }
+      .button_instagram{
+        font-size: 0.6rem;
+        text-align: center;
+      }
+      .button_page{
+        font-size: 0.6rem;
+      }
+      .button_modal{
+        background-color: lavender;
+      }
+    </style>
+</head>
+    
+<body>
+  <br>
+  <p id="title" class="text-center custom1">
+    Pattern
+  </p>
+  <p id="sub-title" class="text-center custom2">
+    수원시 행궁동 장소특정형 프로젝트 (22.09.14 - 22.09.19)
+  </p>
+  <br><br><br>
+
+  <div id="content" class="custom2">
+    <span>&lt;Pattern&gt;은 수원시 행궁동이 갖고 있는 장소로서의 패턴을 연구함으로써, 공간에 머무르고 출발하는 과정의 경험을 해석한 프로젝트 입니다.</span><br><br>
+    <span>행궁동에서는 자연스럽게 가족, 친구, 연인과 함께 성벽을 걷고 용연에 머무릅니다. 2019년 우연히 관찰하기 시작한 행궁동은 장소로부터 공동체의식이 공유되는 곳이었기에, 그 장소를 반복해서 걸으며 변화하는 삶을 받아들일 힘을 얻기도 했습니다.</span><br><br>
+    <span>본 프로젝트에서는 수원천에서 출발하여 행궁동 일대에서 무언가를 발견하기 위해서 걷는 사람들의 시선과 언어를 관찰하고 공유합니다.</span><br><br>
+    
+    <br>
+    <span>
+      - Site-Pattern1: <br>
+      &nbsp;&nbsp;22.09.14 - 22.09.19 리버헤드(@riverhead.coffee) PM12 - 9
+    </span>
+
+    <br><br>
+    <span>
+      - Site-Pattern2: <br>
+      &nbsp;&nbsp;22.09.16 - 22.09.19 카페초안(@cafe_choan) PM12 - 9
+    </span>
+    
+    <br><br><br>
+    <div id="content_foot" class="custom3">
+      <span>전시공간을 제공해주신 리버헤드와 카페초안에 다시 한번 감사드립니다.</span><br>
+      <span>본 프로젝트는 수원시와 수원문화재단의 후원으로 진행됩니다.</span>
+    </div>
+  </div>
+
+  <br><br>
+	<ul class="nav nav-tabs" id="SitePatternTab_Title" role="tablist">
+		<li class="nav-item" role="presentation">
+			<button class="nav-link active" id="Site-Pattern1-tab" data-bs-toggle="tab"
+				data-bs-target="#Site-Pattern1" type="button" role="tab" aria-controls="Site-Pattern1"
+				aria-selected="true">Site-Pattern1</button>
+		</li>
+		<li class="nav-item" role="presentation">
+			<button class="nav-link" id="Site-Pattern2-tab" data-bs-toggle="tab"
+				data-bs-target="#Site-Pattern2" type="button" role="tab"
+				aria-controls="Site-Pattern2" aria-selected="false">Site-Pattern2</button>
+		</li>
+	</ul>
+	
+	<div class="tab-content" id="SitePatternTab_content">
+    <div class="tab-pane fade show active" id="Site-Pattern1" role="tabpanel" aria-labelledby="Site-Pattern1-tab">
+      <br>
+      <div class="custom3">
+        <span>장소를 걷는 사람들의 언어를 공유합니다. 같은 장소를 걷더라고 누가, 언제, 어떤 배경으로 걷는가에 따라서 인식되는 풍경이 다릅니다.</span>
+        <span>걷는 사람의 시선에서는 언어에 담긴 의미를 반영하도록 이미지를 변화하고 공유합니다.</span>
+      </div>
+      <br>
+      <form action="/text_post" method="POST" enctype="multipart/form-data">
+        <button type="button" class="btn button_modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+          문장 전달하기
+        </button>
+        
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">걷는 사람의 시선</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="당신의 행궁동을 한 문장으로 입력해주세요" name="user_text"/>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-bs-dismiss="modal">닫기</button>
+                    <input type="submit" class="btn button_modal" value="제출"/>
+                </div>
+            </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="tab-pane fade" id="Site-Pattern2" role="tabpanel" aria-labelledby="Site-Pattern2-tab">
+      <br>
+      &#8251 2022년 9월 16일(금)에 열립니다
+    </div>
+	</div>
+
+  <br><br>
+  <div class="container">
+    <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./IMG/s1.jpeg" class="img-fluid rounded d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/s2.jpeg" class="img-fluid rounded d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/s3.jpeg" class="img-fluid rounded d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/s4.jpeg" class="img-fluid rounded d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/s5.jpeg" class="img-fluid rounded d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/s6.jpeg" class="img-fluid rounded d-block" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselWithIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselWithIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <br>
+  <div id="button_instagram" class="button_instagram">
+    <a href="https://www.instagram.com/__haenggung.pattern/" class="btn bg-light text-dark" role="button">
+      <span class="bi bi-instagram">
+      instagram</span>
+    </a>
+  </div>
+
+</body>
+
+</html>

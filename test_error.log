@@ -1,0 +1,14 @@
+[2022-09-15 10:56:41,952] INFO in _internal:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-09-15 11:00:07,431] INFO in _internal:  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2022-09-15 11:01:21,866] INFO in _internal:  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2022-09-15 11:02:31,907] INFO in _internal:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-09-15 11:02:57,828] INFO in _internal:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-09-15 11:04:56,874] INFO in _internal:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-09-15 11:06:38,411] INFO in _internal:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-09-15 11:06:38,874] INFO in _internal:  * Restarting with fsevents reloader
+[2022-09-15 11:06:39,301] WARNING in _internal:  * Debugger is active!
+[2022-09-15 11:06:39,339] INFO in _internal:  * Debugger PIN: 225-597-265
+[2022-09-15 11:07:44,828] INFO in _internal:  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2022-09-15 11:07:44,837] INFO in _internal:  * Restarting with fsevents reloader
+[2022-09-15 11:07:45,022] WARNING in _internal:  * Debugger is active!
+[2022-09-15 11:07:45,035] INFO in _internal:  * Debugger PIN: 126-490-686
